@@ -1,1 +1,2 @@
-# Academxlocal
+# AcadeMx
+Elective PHP Project

@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.form-div{
+    margin-top: 100px;
+    border: 1px solid #e0e0e0;
+    padding-top: 15px;
+    width: 10px;
+}
+#profileDisplay{
+ 
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 10%;
+}
+.contentx{
+  background-color: #EDEADE;
+  width:auto;
+  margin-left:16%;
+  height:100%;
+  padding:70px;
+  margin-bottom:0;
+  border: 5px solid #3F3F3F;
+  overflow: auto;
+  }
+  
+ .content-table tr td a{
+    
+    background-color: #5AC7C7;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    padding: 1px 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bolder;
+    margin: 1px 1px;
+    cursor: pointer;
+  }
+  .content-table tr td  a:hover{
+    background-color: white; 
+    color: #5AC7C7; 
+    border: 2px solid #5AC7C7;
+  }
+
+
+
+  .content-table tr td button~#save1{
+    background-color: blue; 
+    color: white; 
+  }
+  .content-table tr td button~#save1:hover{
+    background-color: white; 
+    color: blue; 
+    border: 2px solid blue;
+  }
+  .content-table form #cancel1{
+    background-color: #7B1324; 
+    color: white; 
+  }
+  .content-table tr td a~#cancel1:hover{
+    background-color: white; 
+    color: #7B1324; 
+    border: 2px solid #7B1324;
+  }
+  .content-table tr td a~#save2{
+    background-color: blue; 
+    color: white; 
+  }
+  .content-table tr td a~#save2:hover{
+    background-color: white; 
+    color: blue; 
+    border: 2px solid blue;
+  }
+  .content-table tr td a~#cancel2{
+    background-color: #7B1324; 
+    color: white; 
+  }
+  .content-table tr td a~#cancel2:hover{
+    background-color: white; 
+    color: #7B1324; 
+    border: 2px solid #7B1324;
+  }
+
+
+  .content-table th a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .content-table th a:hover{
+    color: #4CAF50;
+  }
+  
+  
+  #first_chk_bx:checked ~#first_list_bx{
+    display: none;
+}
+

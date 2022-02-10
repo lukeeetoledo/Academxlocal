@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.contentx{
+    background-color: #EDEADE;
+     width:auto;
+     margin-left:16%;
+     height:100%;
+     padding:70px;
+     margin-bottom:0;
+     border: 5px solid #3F3F3F;
+     overflow: auto;
+     
+  }
+  .column {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+textarea{
+    border:solid 1px black;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    resize: none;
+    padding: 14px;
+    border-radius: 5px;
+}
+input{
+    background-color: #5AC7C7;
+    border:solid 1px black;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+    width: 100px;
+    height: 50px;
+}
+
+#comment_post{
+    border:solid 1px black;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    padding: 14px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+
+#comment_show{
+  border:solid 1px black;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+  #commentpost_button{
+    background-color: #5AC7C7;
+    border:none;
+    border:solid 1px black;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 100px;
+    height: 30px;
+    float: right;
+  }
+  #commentpost_button:hover{
+    background: #3F3F3F;
+    color:white;
+    border:solid 1px #5AC7C7;
+  }
+  #like_button{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+  }
+  #dislike_button{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    color: black;
+  }
+  #like_button:hover{
+    background: #3F3F3F;
+    color:rgb(255, 255, 255);
+  }
+ 
+  #dislike_button:hover{
+    background: #3F3F3F;
+    color:rgb(255, 255, 255);
+  }
+
+.wrapper{
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
+}
+.like{
+  margin-right: 15px;
+}
+.like i{
+  font-size: 20px;
+ 
+}
+.like p{
+  display: flex;
+  margin-top: 20px;
+  display: inline;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.dislike i{
+  font-size: 20px;
+ 
+  
+}
+.dislike p{
+  display: flex;
+  margin-top: 20px;
+  display: inline;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.contentx .Popreport{
+  
+}
+
+
+
+  
